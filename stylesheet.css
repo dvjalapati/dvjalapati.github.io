@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+/*sidebar*/
+.sidebar{
+    background-color: lime;
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.sidebar a{
+text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 18px;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.sidebar a:hover{
+    color: #fb0094;
+}
+/*About*/
+.about{
+    margin-left: 320px;
+}
+.about h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+    margin:200px 0 0 0;
+}
+#first{
+    color: #457f90;
+}#second{
+    color: coral;
+ }
+ .about h2{
+     font-size: 30px;
+     margin-top: 0;
+ }
+ .about p{
+     font-size: 22px;
+     color: grey;
+ }
+/*Experience*/
+.experience{
+    margin-left: 320px;
+}
+.experience h1,.education h1,.skills h1,.certification h1,.interest h1{
+    font-size: 50px;
+    font-family:'Exo 2', sans-serif;
+    margin-top: 150px;
+    text-shadow:0 0 10px lime;
+
+}
+.experience-article,.certification-article{
+    border: 2px solid lime;
+    margin: 5px;
+    width: 280px;
+    display: inline-block;
+    box-shadow: 0 0 15px lime;
+    padding: 20px;
+}
+.experience-article h2{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.experience-article p{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+.experience-article button{
+    background-color: lime;
+    color: white;
+    width: 150px;
+    padding: 10px 25px;
+    border-radius: 20px 0 20px 0;
+    border:5px solid white;
+    box-shadow: 0 0 15px lime;
+    margin-left: 60px;
+    transition: all 2s;
+
+}
+.experience-article:hover{
+    transform:perspective(400px) rotateY(-20deg);
+}
+/*education*/
+.education{
+    margin-left: 320px;
+}
+.education-article,.skills-article{
+    border: 2px solid lime;
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    margin: 20px;
+    box-shadow: 0 0 15px lime;
+}
+.education h2{
+    font-family: 'Lobster', cursive;;
+}
+.education p{
+    font-size: 20px;
+    color: grey;
+}
+/*skills*/
+ .skills,.interest{
+     margin-left: 320px;
+     }
+.skills-article-icons{
+    font-size: 100px;
+}
+.skills-article-icons i:hover{
+    color: blue;
+}
+.skills-article h2{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;;
+}
+.skills-article:hover{
+    transform: perspective(400px) rotateX(10deg);
+}
+/* Certification*/
+.certification{
+    margin-left: 320px;
+}
+.certification-article img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.certification-article img{
+margin-top: -50px;
+    margin-left: 90px;
+    border: 2px solid lime;
+}
+.certification-article:hover{
+    transform: scale(1.1,1.1);
+}
